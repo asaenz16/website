@@ -3,4 +3,4 @@ theme: minima
 html:
   comments:
     utterances:
-      repo: "github-org/github-repo"
+      repo: "asaenz16/website"
