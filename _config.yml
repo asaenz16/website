@@ -1,6 +1,1 @@
 theme: minima
-
-html:
-  comments:
-    utterances:
-      repo: "asaenz16/website"
