@@ -1,5 +1,7 @@
 ---
 Title: Shocks and Fluctuation in PushASEP
+date: 2024-07-27
+tags: ["PushASEP"]
 ---
 
 ## Intro
