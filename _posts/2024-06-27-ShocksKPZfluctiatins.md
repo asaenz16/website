@@ -27,3 +27,5 @@ $$
 ## Numerics
 
 Let's 
+
+{include utterances.html}
