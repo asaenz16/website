@@ -1,5 +1,5 @@
 ---
-Title: Shocks and Fluctuation in PushASEP
+title: Shocks and Fluctuation in PushASEP
 date: 2024-07-27
 tags: ["PushASEP"]
 ---
@@ -18,7 +18,7 @@ The result for the step initial conditions has an additional parameter $$\gamma$
 
 ## Burgers Equation
 
-The hydrodynamic limit is the function $$\rho(x,t)$$ of the local density of the particles at positions $$ n = \[x L\]$$ at time $$T = \[ t\]$$. The evolution is given by the *Burgers Equation*:
+The hydrodynamic limit is the function $$\rho(x,t)$$ of the local density of the particles at positions $$ n = [x L]$$ at time $$T = [ t]$$. The evolution is given by the *Burgers Equation*:
 
 $$
 \frac{ d \rho}{dt} +  = 0
