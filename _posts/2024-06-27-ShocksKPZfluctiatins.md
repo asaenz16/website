@@ -28,4 +28,4 @@ $$
 
 Let's 
 
-{include utterances.html}
+{% include utterances.html %}
