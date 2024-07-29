@@ -21,11 +21,31 @@ The result for the step initial conditions has an additional parameter $$\gamma$
 The hydrodynamic limit is the function $$\rho(x,t)$$ of the local density of the particles at positions $$ n = [x L]$$ at time $$T = [ t]$$. The evolution is given by the *Burgers Equation*:
 
 $$
-\frac{ d \rho}{dt} +  = 0
+\frac{ d \rho}{dt} +  \frac{d}{dx} \left[ p \rho (1 -\rho) - q \frac{\rho}{1-\rho}\right]= 0
 $$
 
 ## Numerics
 
-Let's 
+Let's consider the numerical solution of the Burger's equation with step initial conditions. We'll use a Fourier transform (approximation) since the step intial data is not smooth.
+
+### Fourier Transform of Step Initial Data
+
+Let the ring have period one so that solutions are periodic on $$[0,1]$$. For the step initial conditions, take
+
+$$
+\rho(x, 0) = \begin{cases} 1, & \quad x \in [1/4, 3/4] \\ 0, & \quad x \notin [1/4, 3/4]\end{cases}
+$$
+
+We have a Fourier expansion
+
+$$
+\rho(x, 0) = \sum_{k \in \mathbb{Z}} a_k e^{2 \pi i k x}
+$$
+
+where the coefficients are given by
+
+$$
+a_k = \int_{1/4}^{3/4} e^{2 \pi i k x} dx
+$$
 
 {% include utterances.html %}
