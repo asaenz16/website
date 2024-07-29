@@ -39,13 +39,19 @@ $$
 We have a Fourier expansion
 
 $$
-\rho(x, 0) = \sum_{k \in \mathbb{Z}} a_k e^{2 \pi i k x}
+\rho(x, 0) = \sum_{k \in \mathbb{Z}} a_k e^{2 \pi i k x} = a_0 + \sum_{k=0} ( a_k + a_{-k}) \cos(2\pi k x) + i( a_k - a_{-k}) \sin( 2\pi kx)
 $$
 
 where the coefficients are given by
 
 $$
-a_k = \int_{1/4}^{3/4} e^{2 \pi i k x} dx
+a_k = \int_{1/4}^{3/4} e^{2 \pi i k x} dx = \frac{1}{2 \pi i k} \left(e^{ 3  k \pi i /2} - e^{ k \pi i /2} \right)
+$$
+
+so that
+
+$$
+a_k + a_{-k} = 2 \cos( 3 k \pi /2) - 2 \cos( k \pi/2)
 $$
 
 {% include utterances.html %}
